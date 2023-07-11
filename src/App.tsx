@@ -1,6 +1,6 @@
 import { FC } from "react";
 import "./App.css";
-import { Person } from "./componets/Person";
+import { Person, HairColor } from "./componets/Person";
 
 const App: FC = () => {
   const name: string = "Kevin";
@@ -11,7 +11,12 @@ const App: FC = () => {
   return (
     <div className="App">
       <div>Hello There</div>
-      <Person age={10} email={"kishan@gmail.com"} name={"Kishan"} />
+      <Person
+        age={10}
+        email={"kishan@gmail.com"}
+        name={"Kishan"}
+        hairColor={HairColor.Black}
+      />
     </div>
   );
 };
