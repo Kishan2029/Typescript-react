@@ -10,8 +10,8 @@ const App: FC = () => {
   };
   return (
     <div className="App">
-      <div>Hello There, {name}</div>
-      <Person age={10} email={"kishan@gmail.com"} />
+      <div>Hello There</div>
+      <Person age={10} email={"kishan@gmail.com"} name={"Kishan"} />
     </div>
   );
 };
